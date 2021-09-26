@@ -2,8 +2,8 @@
 C++ Basic Exercise
 
 SLIDE 24, Odd or Even
-include <iostream>
-using namespace std;
+    include <iostream>
+    using namespace std;
 
     int main()
     {
