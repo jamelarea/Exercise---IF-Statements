@@ -20,7 +20,8 @@ int main()
 }
   
   //SLIDE 25, Number Checker
-  #include <iostream>
+ 
+    #include <iostream>
 using namespace std;
 
 int main()
@@ -37,7 +38,8 @@ int main()
 }
   
   //SLIDE 26, Profit or Loss
-  #include <iostream>
+ 
+    #include <iostream>
 using namespace std;
 
 int main()
@@ -64,7 +66,8 @@ int main()
 }
   
   //SLIDE 27, Name that Shape
-  #include <iostream>
+
+    #include <iostream>
 using namespace std;
 
 int main()
