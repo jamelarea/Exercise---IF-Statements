@@ -1,5 +1,96 @@
 # Exercise---IF-Statements
-C++ Basic Exercise
+
+EXERCISES
+
+SLIDE 20, It's my Birthday
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        bool myBirthday = true; 
+        int age = 18;
+
+        if (myBirthday == true) { //if birthday is true, the character output will show that it is the user's birthday along with their age
+            age++;
+            cout << "It is my birthday. I am " << age << " years old";
+        }
+        else //if birthday is NOT true, the character output will show that it is NOT their birthday
+        cout << "It is not my birthday" << endl;
+    }
+   
+SLIDE 21, Good Morning?
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int currentTime = 3; //declare and initialise variable for time
+
+        if (currentTime < 12) {
+            cout << "It's PM" << endl; //output PM message
+        }
+        else //else 'currentTime' must be less than 12
+        {
+            cout << "It's AM" << endl;
+        }
+        cin.get(); //keeps console window open on Visual Studio
+        return 0;
+    }
+
+SLIDE 23, Extension Problem (Optional)
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int time; //variable
+        cout << "What time is it in your part of the world? \n"; //character output
+        cin >> time; //character input
+
+        if (time <= 11) //if the number is less than or equal to 11, it is morning
+        {
+            cout << "\nGood Morning" << endl;
+        }
+        else if (time >= 12 && time <= 17) //if the number is greater than or equal to 12 and less than or equal to 17, it is afternoon
+        {
+            cout << "\nGood Afternoon" << endl;
+        }
+        else if (time >= 18 && time <= 21) //if the number is greater than or equal to 18 and less than or equal to 21, it is evening
+        {
+            cout << "\nGood Evening" << endl;
+        }
+        else if (time >= 22 && time <= 24) //if the number is greater than or equal to 22 and less than or equal to 24, it is time to sleep
+        {
+            cout << "\nGood Night" << endl;
+        }
+        else //other inputs besides 1-24
+        {
+            cout << "\nTime given not valid";
+        }
+        return 0;
+    }
+    
+SLIDE 23, Can I vote?
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        int age = 17; //variable
+            if (age >= 18) { //if age is more than or equal to 18, the user can vote
+                cout << "You can vote" << endl;
+            }
+            else //but since the variable inputted is age: 17, the user cannot vote
+            {
+                cout << "You can not vote" << endl;
+            }
+            cin.get(); //cin meaning character input and get() is used for accessing character array
+            return 0;
+    }
 
 SLIDE 24, Odd or Even
     
